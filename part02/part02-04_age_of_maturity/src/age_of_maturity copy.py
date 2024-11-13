@@ -1,26 +1,8 @@
-#twwo if-statements
-number = int(input("Please type in a number: "))
+#write your code here
 
-if number < 0:
-    print("The number is negative")
+age = int(input("How old are you? "))
 
-if number > 0:
-    print("The number is positive or zero")
-
-
-#if-else
-number = int(input("Please type in a number: "))
-
-if number < 0:
-    print("The numver is negative")
+if age > 18:
+    print("You are of age!")
 else:
-    print("The number is ppositive or zero")
-
-#another example for string comparison
-correct = "herdöpfel"
-pw = input("Please type in the password: ")
-
-if pw == correct:
-    print("Hello")
-else:
-    print("No admittance")
+    print("You are not of age!")
